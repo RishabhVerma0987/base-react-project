@@ -12,6 +12,7 @@ dist
 dist-ssr
 vite.config.ts
 commitlint.config.cjs
+.husky
 *.local
 
 # Editor directories and files

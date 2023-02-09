@@ -4,11 +4,6 @@ This is the base template for a "SPA React" project inclusive of dev configurati
 
 1. Create Vite project with react + (typescript + sw)
 2. Add scss to the project
-
-```JavaScript
-npm add -D sass
-```
-
 3. Engine Locking - npmrc and nvmrc
 4. Eslint setup -
    1. Install and initialize eslint - Do not enforce just yet!
@@ -18,3 +13,7 @@ npm add -D sass
 5. Prettier setup -
    1. Install and intialize prettier settings.
    2. Make it work with eslint config rules
+6. Add Husky
+   1. Set lint pre-commit, pre-push
+   2. Add commentlint commit-msg
+7. Add Vitest + JsDOM + JestDOM + react testing library
