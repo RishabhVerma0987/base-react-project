@@ -1,19 +1,12 @@
-# base-react-project
+# BASE REACT PROJECT TEMPLATE
 
-This is the base template for a "SPA React" project inclusive of dev configuration of linting, pre-commits etc.
+This is the base template for a "SPA React" project inclusive of the following dev configuration,
 
-1. Create Vite project with react + (typescript + sw)
-2. Add scss to the project
-3. Engine Locking - npmrc and nvmrc
-4. Eslint setup -
-   1. Install and initialize eslint - Do not enforce just yet!
-   2. Add eslint config file (.eslintrc) and install extra dev library for enforing code rules,
-      eg - airbnb
-   3. Add Ignore file for the config.
-5. Prettier setup -
-   1. Install and intialize prettier settings.
-   2. Make it work with eslint config rules
-6. Add Husky
-   1. Set lint pre-commit, pre-push
-   2. Add commentlint commit-msg
-7. Add Vitest + JsDOM + JestDOM + react testing library
+- Vite (React + Typescript + SW)
+- Scss (CSS Reset)
+- React Router V6
+- Eslint
+- Prettier
+- Husky
+- CommentLint
+- React Testing Library + JSdom + Jest-Dom + Vitest
