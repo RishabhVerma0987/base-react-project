@@ -26,12 +26,23 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "simple-import-sort",
+    "import",
+    "prettier"
+  ],
   "rules": {
     "react/react-in-jsx-scope": 0,
     "import/no-extraneous-dependencies": [
       "off",
       { "devDependencies": ["**/*.test.js", "**/*.spec.js"] }
-    ]
+    ],
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn",
+    "import/first": "warn",
+    "import/newline-after-import": "warn",
+    "import/no-duplicates": "error"
   }
 }
