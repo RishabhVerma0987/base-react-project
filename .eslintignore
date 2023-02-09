@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 vite.config.ts
-commitlint.config.js
+commitlint.config.cjs
 *.local
 
 # Editor directories and files
