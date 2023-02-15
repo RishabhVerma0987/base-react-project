@@ -35,14 +35,19 @@
   ],
   "rules": {
     "react/react-in-jsx-scope": 0,
-    "import/no-extraneous-dependencies": [
-      "off",
-      { "devDependencies": ["**/*.test.js", "**/*.spec.js"] }
-    ],
+    "react/require-default-props": 0,
+    "react/no-unused-prop-types": "warn",
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
     "import/first": "warn",
     "import/newline-after-import": "warn",
-    "import/no-duplicates": "error"
+    "import/no-duplicates": "error",
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": [
+      "off",
+      { "devDependencies": ["**/*.test.js", "**/*.spec.js"] }
+    ],
+    "max-classes-per-file": 0,
+    "@typescript-eslint/no-inferrable-types": 0
   }
 }
