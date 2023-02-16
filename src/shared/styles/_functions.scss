@@ -1,0 +1,13 @@
+// Contains reusabled functions.
+
+@use 'sass:math';
+
+// Convert PX to REM, usage - pxToRem(32): 2rem
+@function pxToRem($pxValue) {
+  @return math.div($pxValue, $base-font-size) * 1rem;
+}
+
+// Convert PX to EM, usage - pxToRem(32): 2em
+@function pxToEm($pxValue) {
+  @return math.div($pxValue, $base-font-size) * 1em;
+}

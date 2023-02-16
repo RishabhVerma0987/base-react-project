@@ -1,0 +1,27 @@
+// Constains resuable mixins.
+
+// Center contents along row side
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Center contents along col side
+@mixin flex-center-col {
+  @include flex-center();
+
+  flex-direction: column;
+}
+
+// Media Query for desktop first approach
+@mixin respond-below($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+    @media (max-width: $breakpoint-value) {
+      @content;
+    }
+  } @else {
+    @error 'Invalid breakpoint: #{$breakpoint}. Use only defined ones present in config';
+  }
+}

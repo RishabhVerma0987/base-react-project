@@ -1,6 +1,6 @@
 # Shared Module
 
-These are atomic and molecular level dumb components which are shared across the app.
+These are atomic and molecular level dumb components which are shared across the app, styles are also included here.
 
 Rules -
 

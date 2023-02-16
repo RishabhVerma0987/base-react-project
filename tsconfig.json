@@ -3,9 +3,10 @@
     "target": "ESNext",
     "baseUrl": "./",
     "paths": {
-      "@pages/*": ["src/pages/*"],
       "@core/*": ["src/core/*"],
-      "@shared/*": ["src/shared/*"]
+      "@pages/*": ["src/pages/*"],
+      "@shared/*": ["src/shared/*"],
+      "@assets/*": ["src/assets/*"]
     },
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
